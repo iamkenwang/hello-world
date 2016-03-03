@@ -3,10 +3,6 @@ php:
   - 5.5
 
 script: phpunit test.php
-deploy:
-  provider: s3
-  access_key_id: "AKIAIBRXZ2CORYFT254A"
-  secret_access_key: "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"
-  bucket: "kenwang"
+
 
 
